@@ -121,3 +121,10 @@ figure img{
 .cropped img {
 	margin: -360px 0px 0px -360px;
 	}
+
+.citation {
+  font-size: 12px;
+  font-style: italic;
+  text-align: left;
+  margin-left: 10px;
+}

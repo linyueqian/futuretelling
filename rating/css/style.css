@@ -153,3 +153,131 @@ body,
 	height: 5px;
 	background-color: #f8f8f8;
 }
+
+.css-shadow {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 2px solid #cddc39;
+	filter: drop-shadow(0 0 8px #ff5722);
+}
+
+.profile {
+	width: 96%;
+	height: auto;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	position: relative;
+	padding: 1% 2%;
+
+}
+
+.center {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 2%;
+}
+
+.rate {
+	height: 46px;
+	/* padding: 0 0; */
+	display: inline-block;
+	margin-bottom: -3%;
+	margin-top: -5%;
+}
+
+.rate:not(:checked)>input {
+	position: absolute;
+	top: -9999px;
+}
+
+.rate:not(:checked)>label {
+	float: right;
+	width: 1em;
+	overflow: hidden;
+	white-space: nowrap;
+	cursor: pointer;
+	font-size: 30px;
+	color: #ccc;
+}
+
+.rate:not(:checked)>label:before {
+	content: '★ ';
+}
+
+.rate>input:checked~label {
+	color: #ffc700;
+}
+
+.rate:not(:checked)>label:hover,
+.rate:not(:checked)>label:hover~label {
+	color: #deb217;
+}
+
+.rate>input:checked+label:hover,
+.rate>input:checked+label:hover~label,
+.rate>input:checked~label:hover,
+.rate>input:checked~label:hover~label,
+.rate>label:hover~input:checked~label {
+	color: #c59b08;
+}
+
+/* desert style div */
+.desert {
+	background-color: #f8f8f8;
+	border: 1px solid #f8f8f8;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+}
+
+.two h1{
+	text-align: center;
+	background: rgb(250,97,89);
+	background: radial-gradient(circle, rgba(250,97,89,1) 50%, rgba(18,98,89,1) 100%);
+	color: #fff;
+}
+
+.bulletin_board{
+	background: rgb(2,0,36);
+	background: linear-gradient(17deg, rgba(2,0,36,1) 0%, rgba(18,98,89,1) 82%, rgba(0,0,0,1) 100%);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	overflow: hidden;
+	position: relative;
+	padding: 1% 2%;
+	color: #fff;
+	height: 89%;
+}
+
+.bulletin_board p{
+	text-align: center;
+	color: #fff;
+	font-size: 20px;
+}
+
+.center1 {
+	display: block;
+	justify-content: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+.circle {
+	width: 500px;
+	height: 500px;
+	line-height: 500px;
+	border-radius: 50%;
+	font-size: 50px;
+	color: #fff;
+	text-align: center;
+	background: #000;
+	align-items: center;
+	display:block;
+  }
