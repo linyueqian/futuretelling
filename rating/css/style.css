@@ -7,18 +7,22 @@
 	font-family: GothamLight;
 	src: url('../fonts/Gotham-Light.otf') format("opentype");
 }
+
 @font-face {
 	font-family: Explore;
 	src: url('../fonts/Explore.ttf') format("truetype");
 }
+
 @font-face {
 	font-family: Tinder;
 	src: url('../fonts/ChaletNewYorkNineteenSeventy.ttf') format("truetype");
 }
+
 @font-face {
 	font-family: Danger;
 	src: url('../fonts/AnotherDangerSlanted.otf') format("opentype");
 }
+
 body {
 	min-height: 100%;
 	margin: 0;
@@ -55,7 +59,6 @@ body,
 	padding: 2%;
 }
 
-/* Clear floats after the columns */
 .container1:after {
 	content: "";
 	display: table;
@@ -257,15 +260,6 @@ body,
 .rate>input:checked~label:hover~label,
 .rate>label:hover~input:checked~label {
 	color: #c59b08;
-}
-
-/* desert style div */
-.desert {
-	background-color: #f8f8f8;
-	border: 1px solid #f8f8f8;
-	border-radius: 5px;
-	padding: 10px;
-	margin: 10px;
 }
 
 .two h1 {

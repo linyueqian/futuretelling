@@ -43,7 +43,7 @@ img {
 	color: #fff;
 }
 
-.middle-left{
+.middle-left {
 	position: absolute;
 	top: 50%;
 	left: 1%;
@@ -52,7 +52,7 @@ img {
 	text-align: center;
 }
 
-.middle-right{
+.middle-right {
 	position: absolute;
 	top: 50%;
 	right: 1%;
@@ -70,7 +70,7 @@ img {
 	text-align: center;
 }
 
-.top-middle{
+.top-middle {
 	position: absolute;
 	top: 6%;
 	left: 50%;
