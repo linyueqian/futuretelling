@@ -136,3 +136,11 @@ figure img{
   text-align: center;
   margin-right: 10px;
 }
+
+.citation a{
+  color:black;
+}
+.copyright a{
+  text-decoration: none;
+  color: #000;
+}
