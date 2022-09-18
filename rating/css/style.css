@@ -1,3 +1,24 @@
+@font-face {
+	font-family: GothamBlack;
+	src: url('../fonts/GothamBlack.otf') format("opentype");
+}
+
+@font-face {
+	font-family: GothamLight;
+	src: url('../fonts/Gotham-Light.otf') format("opentype");
+}
+@font-face {
+	font-family: Explore;
+	src: url('../fonts/Explore.ttf') format("truetype");
+}
+@font-face {
+	font-family: Tinder;
+	src: url('../fonts/ChaletNewYorkNineteenSeventy.ttf') format("truetype");
+}
+@font-face {
+	font-family: Danger;
+	src: url('../fonts/AnotherDangerSlanted.otf') format("opentype");
+}
 body {
 	min-height: 100%;
 	margin: 0;
@@ -22,6 +43,10 @@ body,
 #right {
 	width: 46%;
 	height: 95%;
+}
+
+.profile p {
+	text-align: justify;
 }
 
 .column {
@@ -69,6 +94,11 @@ body,
 	text-align: right;
 }
 
+.row {
+	font-size: 20px;
+	font-family: Tinder;
+}
+
 /* Clear floats after the columns */
 .row:after {
 	content: "";
@@ -89,31 +119,32 @@ body,
 .bar-5 {
 	width: 60%;
 	height: 18px;
-	background-color: #04AA6D;
+	background-color: red;
 }
 
 .bar-4 {
 	width: 30%;
 	height: 18px;
-	background-color: #2196F3;
+	background-color: red;
 }
 
 .bar-3 {
 	width: 10%;
 	height: 18px;
-	background-color: #00bcd4;
+	background-color: red;
 }
 
 .bar-2 {
 	width: 4%;
 	height: 18px;
-	background-color: #ff9800;
+	background-color: red;
+
 }
 
 .bar-1 {
 	width: 15%;
 	height: 18px;
-	background-color: #f44336;
+	background-color: red;
 }
 
 /* Responsive layout - make the columns stack on top of each other instead of next to each other */
@@ -136,7 +167,7 @@ body,
 	color: #fff;
 	letter-spacing: 1px;
 	text-transform: uppercase;
-
+	font-family: GothamBlack;
 	display: grid;
 	grid-template-columns: 1fr max-content 1fr;
 	grid-template-rows: 27px 0;
@@ -171,6 +202,7 @@ body,
 	overflow: hidden;
 	position: relative;
 	padding: 1% 2%;
+	font-family: GothamLight;
 
 }
 
@@ -186,7 +218,6 @@ body,
 
 .rate {
 	height: 46px;
-	/* padding: 0 0; */
 	display: inline-block;
 	margin-bottom: -3%;
 	margin-top: -5%;
@@ -237,16 +268,17 @@ body,
 	margin: 10px;
 }
 
-.two h1{
+.two h1 {
 	text-align: center;
-	background: rgb(250,97,89);
-	background: radial-gradient(circle, rgba(250,97,89,1) 50%, rgba(18,98,89,1) 100%);
+	background: rgb(250, 97, 89);
+	background: radial-gradient(circle, rgba(250, 97, 89, 1) 50%, rgba(18, 98, 89, 1) 100%);
 	color: #fff;
+	font-family: Danger;
 }
 
-.bulletin_board{
-	background: rgb(2,0,36);
-	background: linear-gradient(17deg, rgba(2,0,36,1) 0%, rgba(18,98,89,1) 82%, rgba(0,0,0,1) 100%);
+.bulletin_board {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(17deg, rgba(2, 0, 36, 1) 0%, rgba(18, 98, 89, 1) 82%, rgba(0, 0, 0, 1) 100%);
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	overflow: hidden;
 	position: relative;
@@ -255,10 +287,11 @@ body,
 	height: 89%;
 }
 
-.bulletin_board p{
+.bulletin_board p {
 	text-align: center;
-	color: #fff;
+	color: #D4AF37;
 	font-size: 20px;
+	font-family: Explore;
 }
 
 .center1 {
@@ -269,6 +302,7 @@ body,
 	margin-right: auto;
 	text-align: center;
 }
+
 .circle {
 	width: 500px;
 	height: 500px;
@@ -279,5 +313,5 @@ body,
 	text-align: center;
 	background: #000;
 	align-items: center;
-	display:block;
-  }
+	display: block;
+}

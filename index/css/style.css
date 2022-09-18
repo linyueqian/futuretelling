@@ -127,4 +127,12 @@ figure img{
   font-style: italic;
   text-align: left;
   margin-left: 10px;
+  line-height: 5px;
+}
+
+.copyright{
+  font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  margin-right: 10px;
 }

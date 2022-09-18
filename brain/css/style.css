@@ -78,3 +78,48 @@ img {
 	transform: translateX(-50%);
 	text-align: center;
 }
+
+.home-btn {
+	width: 60px;
+	height: 40px;
+	color: #fff;
+	border-radius: 5px;
+	padding: 10px 25px;
+	font-family: 'Orbitron', sans-serif;
+	font-weight: 500;
+	background: transparent;
+	cursor: pointer;
+	transition: all 0.3s ease;
+	position: relative;
+	display: inline;
+	outline: none;
+	border: none;
+}
+
+.home-btn:after {
+	position: absolute;
+	content: "";
+	width: 0;
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.home-btn:hover {
+	color: #fff;
+}
+
+.home-btn:hover:after {
+	left: auto;
+	right: 0;
+	width: 100%;
+}
+
+.home-btn:active {
+	top: 2px;
+}
+
+a {
+	text-decoration: none;
+	vertical-align: auto;
+}
