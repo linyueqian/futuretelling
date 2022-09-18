@@ -4,7 +4,8 @@ body {
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
-	font-family: 'bebasregular';
+	font-family: 'Audiowide', cursive;
+	font-family: 'Rubik Glitch', cursive;
 }
 
 body:after {
@@ -21,18 +22,9 @@ body:after {
 	z-index: 2;
 }
 
-@font-face {
-	font-family: 'bebasregular';
-	src: url('../fonts/BEBAS___-webfont.eot');
-	src: url('../fonts/BEBAS___-webfont.eot?#iefix') format('embedded-opentype'),
-		url('../fonts/BEBAS___-webfont.woff') format('woff'),
-		url('../fonts/BEBAS___-webfont.ttf') format('truetype'),
-		url('../fonts/BEBAS___-webfont.svg#bebasregular') format('svg');
-	font-weight: normal;
-	font-style: normal;
-
+.uppercase {
+	text-transform: uppercase;
 }
-
 .wrap {
 	width: 80%;
 	margin: 0 auto;
@@ -136,7 +128,7 @@ ul#countdown li {
 	display: inline-block;
 	position: relative;
 	transition: 0.5s;
-	font-family: bebasregular;
+	font-family: 'Audiowide';
 }
 
 .button span:after {
